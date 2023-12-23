@@ -1,0 +1,115 @@
+{
+    "title":"Qual Personagem do Final Fantasy X você é?",
+    "questions":[
+      {
+        "id": 1,
+        "question": "Como você reage sob pressão?",
+        "options": [
+          {"id": 1, "name": "Fico mais focado(a) e determinado(a).", "alias": "Tidus"},
+          {"id": 2, "name": "Busco soluções criativas para superar desafios.", "alias": "Rikku"},
+          {"id": 3, "name": "Sinto-me estressado(a), mas tento manter a calma.", "alias": "Yuna"},
+          {"id": 4, "name": "Fico nervoso(a) e tenho dificuldade em lidar com a situação.", "alias": "Wakka"}
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua filosofia de vida?",
+        "options": [
+          {"id": 1, "name": "Viva o momento e aproveite a vida ao máximo.", "alias": "Tidus"},
+          {"id": 2, "name": "Busque conhecimento e compreensão do mundo.", "alias": "Lulu"},
+          {"id": 3, "name": "Cumpra seu dever, mesmo que seja difícil.", "alias": "Auron"},
+          {"id": 4, "name": "Mantenha-se fiel aos seus princípios, não importa o que aconteça.", "alias": "Kimahri"}
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Como você se sente em relação a mudanças inesperadas?",
+        "options": [
+          {"id": 1, "name": "Acho emocionante, pois traz novas oportunidades.", "alias": "Rikku"},
+          {"id": 2, "name": "Prefiro planejar, mas sei lidar bem com mudanças.", "alias": "Yuna"},
+          {"id": 3, "name": "Sinto-me desconfortável, mas adapto-me com o tempo.", "alias": "Auron"},
+          {"id": 4, "name": "Não gosto de mudanças e tento evitá-las.", "alias": "Lulu"}
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual é a importância da amizade em sua vida?",
+        "options": [
+          {"id": 1, "name": "Amigos são tudo para mim; minha força vem deles.", "alias": "Tidus"},
+          {"id": 2, "name": "Valorizo a amizade, mas também prezo pela independência.", "alias": "Lulu"},
+          {"id": 3, "name": "Tenho poucos amigos, mas são leais e verdadeiros.", "alias": "Auron"},
+          {"id": 4, "name": "Prefiro ficar sozinho(a) na maioria das vezes.", "alias": "Kimahri"}
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Como você se posiciona em relação a tradições e costumes?",
+        "options": [
+          {"id": 1, "name": "Gosto de seguir as tradições e respeitar os costumes.", "alias": "Wakka"},
+          {"id": 2, "name": "Questiono tradições, buscando novas abordagens.", "alias": "Rikku"},
+          {"id": 3, "name": "Equilibro tradição e inovação de maneira sábia.", "alias": "Auron"},
+          {"id": 4, "name": "Sou mais inclinado(a) a criar minhas próprias regras.", "alias": "Lulu"}
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é a sua relação com a espiritualidade?",
+        "options": [
+          {"id": 1, "name": "Tenho uma forte conexão espiritual e acredito em forças superiores.", "alias": "Yuna"},
+          {"id": 2, "name": "Busco entender a espiritualidade de maneira racional e lógica.", "alias": "Lulu"},
+          {"id": 3, "name": "Minha espiritualidade é pessoal e não convencional.", "alias": "Rikku"},
+          {"id": 4, "name": "Não dou muita importância à espiritualidade.", "alias": "Wakka"}
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Como você lida com despedidas e perdas emocionais?",
+        "options": [
+          {"id": 1, "name": "Choro e expresso minhas emoções abertamente.", "alias": "Yuna"},
+          {"id": 2, "name": "Busco conforto na reflexão e no entendimento.", "alias": "Lulu"},
+          {"id": 3, "name": "Fico triste, mas mantenho uma postura forte exteriormente.", "alias": "Auron"},
+          {"id": 4, "name": "Evito mostrar minhas emoções e tento seguir em frente.", "alias": "Wakka"}
+        ]
+      },
+      {
+        "id": 8,
+        "question": "O que é mais importante para você em uma jornada?",
+        "options": [
+          {"id": 1, "name": "As experiências e os momentos vividos.", "alias": "Tidus"},
+          {"id": 2, "name": "O conhecimento adquirido ao longo do caminho.", "alias": "Lulu"},
+          {"id": 3, "name": "Cumprir o objetivo final, não importa o custo.", "alias": "Auron"},
+          {"id": 4, "name": "A jornada em si é mais significativa do que o destino.", "alias": "Rikku"}
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Como você reage diante de injustiças?",
+        "options": [
+          {"id": 1, "name": "Luto contra elas ativamente.", "alias": "Tidus"},
+          {"id": 2, "name": "Busco maneiras de resolver as injustiças de forma inteligente.", "alias": "Yuna"},
+          {"id": 3, "name": "Fico indignado(a), mas tento manter a compostura.", "alias": "Auron"},
+          {"id": 4, "name": "Evito conflitos e injustiças sempre que possível.", "alias": "Wakka"}
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Qual é a sua abordagem em relação ao desconhecido?",
+        "options": [
+          {"id": 1, "name": "Aceito o desconhecido com entusiasmo.", "alias": "Rikku"},
+          {"id": 2, "name": "Busco entender e explorar o desconhecido com cautela.", "alias": "Yuna"},
+          {"id": 3, "name": "Sinto-me desconfortável, mas tento me adaptar.", "alias": "Auron"},
+          {"id": 4, "name": "Prefiro evitar o desconhecido sempre que possível.", "alias": "Lulu"}
+        ]
+      }
+    ]
+    ,
+    "results":{
+      "Tidus": {"result":"Você muito provavelmente seria o Tidus!", "img":"assets/imgs/ffx/tidus.webp"},
+      "Rikku": {"result":"Você muito provavelmente seria a Rikku!", "img":"assets/imgs/ffx/rikku.webp"},
+      "Yuna": {"result":"Você muito provavelmente seria a Yuna!", "img":"assets/imgs/ffx/yuna.webp"},
+      "Wakka": {"result":"Você muito provavelmente seria o Wakka!", "img":"assets/imgs/ffx/wakka.webp"},
+      "Lulu": {"result":"Você muito provavelmente seria a Lulu!", "img":"assets/imgs/ffx/lulu.webp"},
+      "Auron": {"result":"Você muito provavelmente seria o Auron!", "img":"assets/imgs/ffx/auron.webp"},
+      "Kimahri": {"result":"Você muito provavelmente seria o Kimahri!", "img":"assets/imgs/ffx/kimahri.webp"}
+    }
+  }
