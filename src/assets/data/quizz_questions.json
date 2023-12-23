@@ -49,7 +49,7 @@
       }
     ],
     "results":{
-      "A": "Você muito provavelmente seria um super vilão!",
-      "B": "Você muito provavelmente seria um super Herói!"
+      "A": {"result":"Você muito provavelmente seria um super vilão!", "img":"assets/imgs/hero/villain.png"},
+      "B": {"result":"Você muito provavelmente seria um super Herói!", "img":"assets/imgs/hero/hero.png"}
     }
   }

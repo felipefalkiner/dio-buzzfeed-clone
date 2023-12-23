@@ -1,5 +1,5 @@
 {
-    "title":"Você seria um heroi ou vilão ?",
+    "title":"Qual Personagem do Final Fantasy X você é?",
     "questions":[
       {
         "id": 1,
@@ -104,12 +104,12 @@
     ]
     ,
     "results":{
-      "Tidus": "Você muito provavelmente seria o Tidus!",
-      "Rikku": "Você muito provavelmente seria a Rikku!",
-      "Yuna": "Você muito provavelmente seria a Yuna!",
-      "Wakka": "Você muito provavelmente seria o Wakka!",
-      "Lulu": "Você muito provavelmente seria a Lulu!",
-      "Auron": "Você muito provavelmente seria o Auron!",
-      "Kimahri": "Você muito provavelmente seria o Kimahri!"
+      "Tidus": {"result":"Você muito provavelmente seria o Tidus!", "img":"assets/imgs/ffx/tidus.webp"},
+      "Rikku": {"result":"Você muito provavelmente seria a Rikku!", "img":"assets/imgs/ffx/rikku.webp"},
+      "Yuna": {"result":"Você muito provavelmente seria a Yuna!", "img":"assets/imgs/ffx/yuna.webp"},
+      "Wakka": {"result":"Você muito provavelmente seria o Wakka!", "img":"assets/imgs/ffx/wakka.webp"},
+      "Lulu": {"result":"Você muito provavelmente seria a Lulu!", "img":"assets/imgs/ffx/lulu.webp"},
+      "Auron": {"result":"Você muito provavelmente seria o Auron!", "img":"assets/imgs/ffx/auron.webp"},
+      "Kimahri": {"result":"Você muito provavelmente seria o Kimahri!", "img":"assets/imgs/ffx/kimahri.webp"}
     }
   }

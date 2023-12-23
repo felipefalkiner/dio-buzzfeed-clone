@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import quizz_questions from "../../../assets/data/quizz_questions.json";
+import quiz_hero from "../../../assets/data/quizz_questions.json";
+import quiz_ffx from "../../../assets/data/quizz_ffx.json";
 
 @Component({
   selector: 'app-quizz',
@@ -9,6 +10,8 @@ import quizz_questions from "../../../assets/data/quizz_questions.json";
 
 export class QuizzComponent implements OnInit {
 
+  quizz_questions = quiz_ffx;
+
   title:string = "";
 
   questions:any;
@@ -16,6 +19,7 @@ export class QuizzComponent implements OnInit {
 
   answers:string[] = [];
   answerSelected:string = "";
+  answerImage:string = "";
 
   questionIndex:number = 0;
   questionMaxIndex:number = 0;
@@ -27,11 +31,11 @@ export class QuizzComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    if(quizz_questions){
+    if(this.quizz_questions){
       this.finished = false
-      this.title = quizz_questions.title
+      this.title = this.quizz_questions.title
 
-      this.questions = quizz_questions.questions
+      this.questions = this.quizz_questions.questions
       this.questionSelected = this.questions[this.questionIndex]
 
       this.questionIndex = 0
@@ -54,7 +58,8 @@ export class QuizzComponent implements OnInit {
     } else {
       const finalResult:string = await this.checkResult(this.answers)
       this.finished = true;
-      this.answerSelected = quizz_questions.results[finalResult as keyof typeof quizz_questions.results]
+      this.answerSelected = this.quizz_questions.results[finalResult as keyof typeof this.quizz_questions.results].result
+      this.answerImage = this.quizz_questions.results[finalResult as keyof typeof this.quizz_questions.results].img
 
     }
   }
