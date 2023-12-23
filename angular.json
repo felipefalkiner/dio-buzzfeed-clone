@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dio-buzzfedd-clone": {
+    "dio-buzzfeed-clone": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dio-buzzfedd-clone",
+            "outputPath": "dist/dio-buzzfeed-clone",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "dio-buzzfedd-clone:build:production"
+              "browserTarget": "dio-buzzfeed-clone:build:production"
             },
             "development": {
-              "browserTarget": "dio-buzzfedd-clone:build:development"
+              "browserTarget": "dio-buzzfeed-clone:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "dio-buzzfedd-clone:build"
+            "browserTarget": "dio-buzzfeed-clone:build"
           }
         },
         "test": {
