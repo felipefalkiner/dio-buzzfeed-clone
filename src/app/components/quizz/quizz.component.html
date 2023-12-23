@@ -2,14 +2,26 @@
     
     <div class="quiz_logo">
         <img src="assets/imgs/logo.png" alt="" srcset="">
-        <h3>{{title}}</h3>
+        <h3 *ngIf="quizSelect">{{title}}</h3>
+    </div>
+
+    <div *ngIf="!quizSelect" class="quiz_select">
+        <h3>Escolha o seu quiz!</h3>
+        <button
+            class="btn-option"
+            (click)="quizSelection('hero')"
+        >Você seria um heroi ou vilão?</button>
+        <button
+            class="btn-option"
+            (click)="quizSelection('ffx')"
+        >Qual Personagem do Final Fantasy X você é?</button>
     </div>
     
-    <div *ngIf=!finished class="quiz_questions">
+    <div *ngIf="!finished && quizSelect" class="quiz_questions">
         <h3>{{questionSelected.question}}</h3>
     </div>
 
-    <div *ngIf=!finished class="quiz_options">
+    <div *ngIf="!finished && quizSelect" class="quiz_options">
         <button
             *ngFor="let option of questionSelected.options"
             (click)="playerChoice(option.alias)"

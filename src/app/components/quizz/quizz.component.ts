@@ -10,7 +10,9 @@ import quiz_ffx from "../../../assets/data/quizz_ffx.json";
 
 export class QuizzComponent implements OnInit {
 
-  quizz_questions = quiz_ffx;
+  quizSelect:boolean = false;
+
+  quizz_questions:any = quiz_hero;
 
   title:string = "";
 
@@ -31,17 +33,27 @@ export class QuizzComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    if(this.quizz_questions){
-      this.finished = false
-      this.title = this.quizz_questions.title
 
-      this.questions = this.quizz_questions.questions
-      this.questionSelected = this.questions[this.questionIndex]
+  }
 
-      this.questionIndex = 0
-      this.questionMaxIndex = this.questions.length;
-
+  async quizSelection(value:String){
+    this.quizSelect = true
+    if(value === "hero"){
+      this.quizz_questions = quiz_hero
+    } else {
+      this.quizz_questions = quiz_ffx
+      console.log(this.quizz_questions)
     }
+
+    this.finished = false
+    this.title = this.quizz_questions.title
+
+    this.questions = this.quizz_questions.questions
+    this.questionSelected = this.questions[this.questionIndex]
+
+    this.questionIndex = 0
+    this.questionMaxIndex = this.questions.length;
+
   }
 
   playerChoice(value:string){
