@@ -1,0 +1,115 @@
+{
+    "title":"Você seria um heroi ou vilão ?",
+    "questions":[
+      {
+        "id": 1,
+        "question": "Como você reage sob pressão?",
+        "options": [
+          {"id": 1, "name": "Fico mais focado(a) e determinado(a).", "alias": "A", "character": "Tidus"},
+          {"id": 2, "name": "Busco soluções criativas para superar desafios.", "alias": "B", "character": "Rikku"},
+          {"id": 3, "name": "Sinto-me estressado(a), mas tento manter a calma.", "alias": "C", "character": "Yuna"},
+          {"id": 4, "name": "Fico nervoso(a) e tenho dificuldade em lidar com a situação.", "alias": "D", "character": "Wakka"}
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua filosofia de vida?",
+        "options": [
+          {"id": 1, "name": "Viva o momento e aproveite a vida ao máximo.", "alias": "A", "character": "Tidus"},
+          {"id": 2, "name": "Busque conhecimento e compreensão do mundo.", "alias": "B", "character": "Lulu"},
+          {"id": 3, "name": "Cumpra seu dever, mesmo que seja difícil.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "Mantenha-se fiel aos seus princípios, não importa o que aconteça.", "alias": "D", "character": "Kimahri"}
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Como você se sente em relação a mudanças inesperadas?",
+        "options": [
+          {"id": 1, "name": "Acho emocionante, pois traz novas oportunidades.", "alias": "A", "character": "Rikku"},
+          {"id": 2, "name": "Prefiro planejar, mas sei lidar bem com mudanças.", "alias": "B", "character": "Yuna"},
+          {"id": 3, "name": "Sinto-me desconfortável, mas adapto-me com o tempo.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "Não gosto de mudanças e tento evitá-las.", "alias": "D", "character": "Lulu"}
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual é a importância da amizade em sua vida?",
+        "options": [
+          {"id": 1, "name": "Amigos são tudo para mim; minha força vem deles.", "alias": "A", "character": "Tidus"},
+          {"id": 2, "name": "Valorizo a amizade, mas também prezo pela independência.", "alias": "B", "character": "Lulu"},
+          {"id": 3, "name": "Tenho poucos amigos, mas são leais e verdadeiros.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "Prefiro ficar sozinho(a) na maioria das vezes.", "alias": "D", "character": "Kimahri"}
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Como você se posiciona em relação a tradições e costumes?",
+        "options": [
+          {"id": 1, "name": "Gosto de seguir as tradições e respeitar os costumes.", "alias": "A", "character": "Wakka"},
+          {"id": 2, "name": "Questiono tradições, buscando novas abordagens.", "alias": "B", "character": "Rikku"},
+          {"id": 3, "name": "Equilibro tradição e inovação de maneira sábia.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "Sou mais inclinado(a) a criar minhas próprias regras.", "alias": "D", "character": "Lulu"}
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é a sua relação com a espiritualidade?",
+        "options": [
+          {"id": 1, "name": "Tenho uma forte conexão espiritual e acredito em forças superiores.", "alias": "A", "character": "Yuna"},
+          {"id": 2, "name": "Busco entender a espiritualidade de maneira racional e lógica.", "alias": "B", "character": "Lulu"},
+          {"id": 3, "name": "Minha espiritualidade é pessoal e não convencional.", "alias": "C", "character": "Rikku"},
+          {"id": 4, "name": "Não dou muita importância à espiritualidade.", "alias": "D", "character": "Wakka"}
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Como você lida com despedidas e perdas emocionais?",
+        "options": [
+          {"id": 1, "name": "Choro e expresso minhas emoções abertamente.", "alias": "A", "character": "Yuna"},
+          {"id": 2, "name": "Busco conforto na reflexão e no entendimento.", "alias": "B", "character": "Lulu"},
+          {"id": 3, "name": "Fico triste, mas mantenho uma postura forte exteriormente.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "Evito mostrar minhas emoções e tento seguir em frente.", "alias": "D", "character": "Wakka"}
+        ]
+      },
+      {
+        "id": 8,
+        "question": "O que é mais importante para você em uma jornada?",
+        "options": [
+          {"id": 1, "name": "As experiências e os momentos vividos.", "alias": "A", "character": "Tidus"},
+          {"id": 2, "name": "O conhecimento adquirido ao longo do caminho.", "alias": "B", "character": "Lulu"},
+          {"id": 3, "name": "Cumprir o objetivo final, não importa o custo.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "A jornada em si é mais significativa do que o destino.", "alias": "D", "character": "Rikku"}
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Como você reage diante de injustiças?",
+        "options": [
+          {"id": 1, "name": "Luto contra elas ativamente.", "alias": "A", "character": "Tidus"},
+          {"id": 2, "name": "Busco maneiras de resolver as injustiças de forma inteligente.", "alias": "B", "character": "Yuna"},
+          {"id": 3, "name": "Fico indignado(a), mas tento manter a compostura.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "Evito conflitos e injustiças sempre que possível.", "alias": "D", "character": "Wakka"}
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Qual é a sua abordagem em relação ao desconhecido?",
+        "options": [
+          {"id": 1, "name": "Aceito o desconhecido com entusiasmo.", "alias": "A", "character": "Rikku"},
+          {"id": 2, "name": "Busco entender e explorar o desconhecido com cautela.", "alias": "B", "character": "Yuna"},
+          {"id": 3, "name": "Sinto-me desconfortável, mas tento me adaptar.", "alias": "C", "character": "Auron"},
+          {"id": 4, "name": "Prefiro evitar o desconhecido sempre que possível.", "alias": "D", "character": "Lulu"}
+        ]
+      }
+    ]
+    ,
+    "results":{
+      "Tidus": "Você muito provavelmente seria o Tidus!",
+      "Rikku": "Você muito provavelmente seria a Rikku!",
+      "Yuna": "Você muito provavelmente seria a Yuna!",
+      "Wakka": "Você muito provavelmente seria o Wakka!",
+      "Lulu": "Você muito provavelmente seria a Lulu!",
+      "Auron": "Você muito provavelmente seria o Auron!",
+      "Kimahri": "Você muito provavelmente seria o Kimahri!"
+    }
+  }
